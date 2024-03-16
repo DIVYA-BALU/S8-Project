@@ -6,10 +6,14 @@ import java.util.ArrayList;
 import org.springframework.data.annotation.Id;
 import org.springframework.web.bind.annotation.RestController;
 
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.RequiredArgsConstructor;
 
-@RestController
-@RequiredArgsConstructor
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class Outbound {
     @Id
     String _id;
@@ -21,8 +25,4 @@ public class Outbound {
     Date invoiceDate;
     String addedBy;
 
-    public class Composition{
-        String materialType;
-        Double percentage;
-    }
 }

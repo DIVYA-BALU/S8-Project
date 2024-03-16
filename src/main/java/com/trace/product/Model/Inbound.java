@@ -25,9 +25,5 @@ public class Inbound {
     Double totalQuantity;
     Double remainingQuantity;
 
-    public class Composition{
-        String materialType;
-        Double percentage;
-        
-    }
+    
 }
