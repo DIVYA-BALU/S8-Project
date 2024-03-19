@@ -13,12 +13,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.trace.product.Dto.UpdateProduction;
-import com.trace.product.Model.Outbound;
 import com.trace.product.Model.Production;
-import com.trace.product.Service.OutboundService;
 import com.trace.product.Service.ProductionService;
 
-import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping(path = "production")

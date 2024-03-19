@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class Inbound {
     @Id
     String _id;
-    Integer lotNo;
+    String lotNo;
     ArrayList<Composition> materialComposition;
     Double quantity;
     Integer invoiceNo;
